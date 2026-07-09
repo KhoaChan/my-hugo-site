@@ -8,8 +8,6 @@ pre: " <b> 7. </b> "
 
 
 
-# Chia sẻ, đóng góp ý kiến
-
 Sau thời gian tham gia chương trình **First Cloud AI Journey – Workforce Bootcamp 2026**, tôi có cơ hội được học tập, thực hành và tiếp cận với môi trường làm việc thực tế trong lĩnh vực điện toán đám mây. Đây là một trải nghiệm rất hữu ích đối với tôi, không chỉ giúp tôi mở rộng kiến thức chuyên môn về AWS mà còn giúp tôi rèn luyện tác phong làm việc, khả năng tự học, tư duy giải quyết vấn đề và kỹ năng tài liệu hóa quá trình thực hành.
 
 Thông qua quá trình tham gia chương trình, tôi xin chia sẻ một số đánh giá và đóng góp cá nhân như sau:

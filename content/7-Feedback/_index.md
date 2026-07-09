@@ -8,8 +8,6 @@ pre: " <b> 7. </b> "
 
 
 
-# Sharing and Feedback
-
 After participating in the **First Cloud AI Journey – Workforce Bootcamp 2026** program, I had the opportunity to study, practice, and experience a real learning environment in the field of cloud computing. This was a very valuable experience for me because it not only helped me expand my technical knowledge of AWS, but also improved my working attitude, self-learning ability, problem-solving mindset, and documentation skills.
 
 Through my participation in the program, I would like to share some personal feedback and suggestions as follows:

@@ -8,8 +8,6 @@ pre: " <b> 1.5. </b> "
 
 
 
-# Worklog Tuần 5
-
 ## I. Tóm tắt tổng quan
 
 Tuần 5 là giai đoạn tôi tập trung nhiều hơn vào các nội dung liên quan đến **quản trị danh tính, bảo mật dữ liệu và lưu trữ cấp doanh nghiệp** trên AWS. Nếu các tuần trước chủ yếu xoay quanh hạ tầng mạng, máy chủ, cân bằng tải và triển khai ứng dụng, thì tuần này tôi đi sâu hơn vào cách kiểm soát quyền truy cập, giới hạn phạm vi thao tác của người dùng và bảo vệ dữ liệu bằng mã hóa.
@@ -101,7 +99,7 @@ Các bước thực hiện:
 
 ## 4. Minh chứng thực hành
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-5/image.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-5/image.png)
 
 ## 5. Kết quả đạt được
 
@@ -153,8 +151,8 @@ Các bước thực hiện:
 
 ## 4. Minh chứng thực hành
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-5/image copy.png)
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-5/image copy 2.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-5/image%20copy.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-5/image%20copy%202.png)
 
 ## 5. Kết quả đạt được
 
@@ -200,8 +198,8 @@ Các bước thực hiện:
 
 ## 4. Minh chứng thực hành
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-5/image copy 3.png)
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-5/image copy 4.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-5/image%20copy%203.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-5/image%20copy%204.png)
 
 ## 5. Kết quả đạt được
 
@@ -247,8 +245,8 @@ Các bước thực hiện:
 
 ## 4. Minh chứng thực hành
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-5/image copy 5.png)
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-5/image copy 6.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-5/image%20copy%205.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-5/image%20copy%206.png)
 
 ## 5. Kết quả đạt được
 
@@ -300,8 +298,8 @@ Các bước thực hiện:
 
 ## 4. Minh chứng thực hành
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-5/image copy 7.png)
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-5/image copy 8.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-5/image%20copy%207.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-5/image%20copy%208.png)
 
 ## 5. Kết quả đạt được
 
@@ -346,8 +344,6 @@ Các bước thực hiện:
 
 ## 4. Minh chứng thực hành
 
-
-
 ## 5. Kết quả đạt được
 
 Sau bài lab này, tôi hiểu cách IAM Conditions giúp tăng cường bảo mật truy cập. Việc giới hạn theo IP hoặc thời gian giúp giảm nguy cơ tài khoản bị sử dụng sai mục đích hoặc truy cập ngoài phạm vi kiểm soát.
@@ -390,7 +386,6 @@ Các bước thực hiện:
 * Kiểm tra ứng dụng có thể truy cập dịch vụ AWS thông qua role.
 
 ## 4. Minh chứng thực hành
-
 
 ## 5. Kết quả đạt được
 

@@ -8,8 +8,6 @@ pre: " <b> 1.4. </b> "
 
 
 
-# Worklog Tuần 4
-
 ## I. Tóm tắt tổng quan
 
 Tuần 4 là giai đoạn tôi tiếp tục mở rộng kiến thức từ hạ tầng mạng và vận hành cơ bản sang các nội dung nâng cao hơn liên quan đến bảo mật, kết nối mạng đa VPC, điều phối định tuyến tập trung và tự động hóa triển khai ứng dụng trên AWS.
@@ -48,10 +46,6 @@ Trong tuần 4, tôi đặt ra các mục tiêu chính sau:
 | Ngày 5     | Bảo vệ ứng dụng với AWS WAF | Tạo Web ACL, cấu hình rules bảo vệ ứng dụng và liên kết WAF với Application Load Balancer.          | Ứng dụng web được tăng cường bảo vệ ở lớp biên                        |
 | Ngày 6     | CI/CD với AWS CodePipeline  | Thiết lập quy trình triển khai tự động bằng CodeCommit, CodeBuild, CodeDeploy và CodePipeline.      | Ứng dụng có thể tự động triển khai khi có thay đổi mã nguồn           |
 | Ngày 7     | Tổng hợp và tài liệu hóa    | Ghi chú quy trình thực hành, tổng hợp lỗi, kiểm tra tài nguyên và chuẩn bị nội dung portfolio Hugo. | Hoàn thiện Worklog Tuần 4 và chuẩn bị hình minh chứng                 |
-
----
-
-# IV. Thực hành kỹ thuật chi tiết qua các bài Lab
 
 ---
 
@@ -94,9 +88,9 @@ Các bước thực hiện:
 
 ## 4. Minh chứng thực hành
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-4/image.png)
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-4/image copy.png)
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-4/image copy 2.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-4/image.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-4/image%20copy.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-4/image%20copy%202.png)
 
 ## 5. Kết quả đạt được
 
@@ -147,9 +141,9 @@ Các bước thực hiện:
 
 ## 4. Minh chứng thực hành
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-4/image copy 3.png)
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-4/image copy 4.png)
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-4/image copy 5.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-4/image%20copy%203.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-4/image%20copy%204.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-4/image%20copy%205.png)
 
 ## 5. Kết quả đạt được
 
@@ -200,9 +194,9 @@ Các bước thực hiện:
 
 ## 4. Minh chứng thực hành
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-4/image copy 6.png)
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-4/image copy 7.png)
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-4/image copy 8.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-4/image%20copy%206.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-4/image%20copy%207.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-4/image%20copy%208.png)
 
 ## 5. Kết quả đạt được
 
@@ -266,7 +260,7 @@ Các bước thực hiện:
 
 ## 4. Minh chứng thực hành
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-4/image copy 9.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-4/image%20copy%209.png)
 
 ## 5. Kết quả đạt được
 

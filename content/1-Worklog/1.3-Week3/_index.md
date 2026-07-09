@@ -8,8 +8,6 @@ pre: " <b> 1.3. </b> "
 
 
 
-# Week 3 Worklog
-
 ## I. Overview
 
 Week 3 marked an important step forward in my internship journey in the **First Cloud AI Journey – Workforce Bootcamp 2026** program. During this week, I moved from building basic single-layer infrastructure to designing more advanced, multi-layer cloud networking systems and hybrid connectivity models on AWS.
@@ -94,12 +92,11 @@ The steps performed:
 * Reviewed the alarm configuration and saved it.
 
 ## 4. Practice Evidence
-
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-3/image.png)
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-3/image copy.png)
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-3/image copy 2.png)
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-3/image copy 3.png)
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-3/image copy 4.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy%202.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy%203.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy%204.png)
 
 ## 5. Results Achieved
 
@@ -144,7 +141,7 @@ The steps performed:
 
 ## 4. Practice Evidence
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-3/image copy 5.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy%205.png)
 
 ## 5. Results Achieved
 
@@ -191,8 +188,8 @@ The steps performed:
 
 ## 4. Practice Evidence
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-3/image copy 6.png)
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-3/image copy 7.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy%206.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy%207.png)
 
 ## 5. Results Achieved
 
@@ -241,7 +238,7 @@ aws ec2 describe-instances --query "Reservations[*].Instances[*].[InstanceId,Sta
 
 ## 4. Practice Evidence
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-3/image copy 8.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy%208.png)
 
 ## 5. Results Achieved
 
@@ -292,10 +289,10 @@ The steps performed:
 
 ## 4. Practice Evidence
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-3/image copy 9.png)
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-3/image copy 10.png)
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-3/image copy 11.png)
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-3/image copy 12.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy%209.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy%2010.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy%2011.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy%2012.png)
 
 ## 5. Results Achieved
 
@@ -347,9 +344,10 @@ The steps performed:
 
 ## 4. Practice Evidence
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-3/image copy 13.png)
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-3/image copy 14.png)
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-3/image copy 15.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy%209.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy%2010.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy%2011.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy%2012.png)
 
 ## 5. Results Achieved
 

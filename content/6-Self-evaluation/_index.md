@@ -8,8 +8,6 @@ pre: " <b> 6. </b> "
 
 
 
-# Self-Evaluation of the Internship Process
-
 During my internship in the **First Cloud AI Journey – Workforce Bootcamp 2026** program, I had the opportunity to study, practice, and experience a more realistic working environment in the field of cloud computing. This internship helped me strengthen the knowledge I had learned at school while also expanding my understanding of AWS, cloud infrastructure, security, networking, storage, CI/CD, and resource management.
 
 Throughout the internship, I participated in many AWS labs related to IAM, VPC, EC2, S3, RDS, CloudWatch, Route 53, Load Balancer, Security Hub, WAF, KMS, and CodePipeline. Through these activities, I improved my ability to read technical documentation, work with the AWS Console, use AWS CLI, analyze errors, document implementation steps, and present results in weekly reports.

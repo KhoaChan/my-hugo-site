@@ -7,31 +7,6 @@ pre: " <b> 1.2. </b> "
 ---
 
 
-### Week 2 Objectives:
-
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
-
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
-
----
-
-title: "Week 2 Worklog"
-date: 2024-01-01
-weight: 1
-chapter: false
-pre: " <b> 1.2. </b> "
-----------------------
-
-# Week 2 Worklog
 
 ## I. Overview
 
@@ -154,9 +129,9 @@ During the practice process, I performed the following steps:
 
 ## 4. Screenshots/Evidence
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-2/image.png)
+![VPC Create Screenshot](/images/1-Workblog/Week-2/vpc-create.png)
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-2/image copy.png)
+![Screenshot of IAM Group Admins](/images/1-Workblog/Week-2/image%20copy.png)
 
 ## 5. Results Achieved
 
@@ -212,9 +187,9 @@ The steps performed:
 
 ## 4. Screenshots/Evidence
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-2/image copy 2.png)
+![Screenshot of IAM Group Admins](/images/1-Workblog/Week-2/image%20copy%202.png)
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-2/image copy 3.png)
+![Subnet Configuration Screenshot](/images/1-Workblog/Week-2/image%20copy%203.png)
 
 ## 5. Results Achieved
 
@@ -284,15 +259,15 @@ echo "<h1>Welcome to Khoa's AWS Web Server</h1>" > /var/www/html/index.html
 
 ## 4. Screenshots/Evidence
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-2/image copy 4.png)
+![EC2 Instance Configuration](/images/1-Workblog/Week-2/image%20copy%204.png)
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-2/image copy 5.png)
+![EC2 Security Group Configuration](/images/1-Workblog/Week-2/image%20copy%205.png)
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-2/image copy 6.png)
+![EC2 Running Instance](/images/1-Workblog/Week-2/image%20copy%206.png)
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-2/image copy 7.png)
+![EC2 Public IP Website Test](/images/1-Workblog/Week-2/image%20copy%207.png)
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-2/image copy 8.png)
+![EC2 Public IP Website Test](/images/1-Workblog/Week-2/image%20copy%208.png)
 
 ## 5. Results Achieved
 
@@ -366,13 +341,14 @@ Sample Bucket Policy:
 
 ## 4. Screenshots/Evidence
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-2/image copy 9.png)
+![S3 Static Website Hosting](/images/1-Workblog/Week-2/image%20copy%209.png)
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-2/image copy 10.png)
+![S3 Bucket Policy](/images/1-Workblog/Week-2/image%20copy%2010.png)
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-2/image copy 11.png)
+![S3 Website Endpoint Test](/images/1-Workblog/Week-2/image%20copy%2011.png)
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-2/image copy 12.png)
+![RDS MySQL Engine Selection](/images/1-Workblog/Week-2/image%20copy%2012.png)
+
 
 ## 5. Results Achieved
 
@@ -429,11 +405,11 @@ The steps performed:
 
 ## 4. Screenshots/Evidence
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-2/image copy 13.png)
+![RDS Instance Configuration](/images/1-Workblog/Week-2/image%20copy%2013.png)
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-2/image copy 14.png)
+![RDS Storage Configuration](/images/1-Workblog/Week-2/image%20copy%2014.png)
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-2/image copy 15.png)
+![RDS Available Status and Endpoint](/images/1-Workblog/Week-2/image%20copy%2015.png)
 
 ## 5. Results Achieved
 

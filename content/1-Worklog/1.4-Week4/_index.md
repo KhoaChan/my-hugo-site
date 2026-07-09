@@ -8,8 +8,6 @@ pre: " <b> 1.4. </b> "
 
 
 
-# Week 4 Worklog
-
 ## I. Overview
 
 Week 4 was the stage where I continued expanding my knowledge from basic networking and operations into more advanced topics related to security, multi-VPC connectivity, centralized routing, and automated application deployment on AWS.
@@ -51,9 +49,6 @@ The main objectives for Week 4 were:
 
 ---
 
-# IV. Detailed Technical Practice Through Labs
-
----
 
 # LAB 18: AWS Security Hub - Centralized Security Management
 
@@ -94,9 +89,9 @@ The steps performed:
 
 ## 4. Practice Evidence
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-4/image.png)
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-4/image copy.png)
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-4/image copy 2.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-4/image.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-4/image%20copy.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-4/image%20copy%202.png)
 
 ## 5. Results Achieved
 
@@ -147,9 +142,9 @@ The steps performed:
 
 ## 4. Practice Evidence
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-4/image copy 3.png)
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-4/image copy 4.png)
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-4/image copy 5.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-4/image%20copy%203.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-4/image%20copy%204.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-4/image%20copy%205.png)
 
 ## 5. Results Achieved
 
@@ -200,9 +195,9 @@ The steps performed:
 
 ## 4. Practice Evidence
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-4/image copy 6.png)
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-4/image copy 7.png)
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-4/image copy 8.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-4/image%20copy%206.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-4/image%20copy%207.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-4/image%20copy%208.png)
 
 ## 5. Results Achieved
 
@@ -266,7 +261,7 @@ The steps performed:
 
 ## 4. Practice Evidence
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-4/image copy 9.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-4/image%20copy%209.png)
 
 ## 5. Results Achieved
 

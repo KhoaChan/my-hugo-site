@@ -8,7 +8,6 @@ pre: " <b> 1.5. </b> "
 
 
 
-# Week 5 Worklog
 
 ## I. Executive Summary
 
@@ -101,7 +100,7 @@ The steps performed:
 
 ## 4. Practice Evidence
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-5/image.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-5/image.png)
 
 ## 5. Results Achieved
 
@@ -153,8 +152,8 @@ The steps performed:
 
 ## 4. Practice Evidence
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-5/image copy.png)
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-5/image copy 2.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-5/image%20copy.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-5/image%20copy%202.png)
 
 ## 5. Results Achieved
 
@@ -200,8 +199,8 @@ The steps performed:
 
 ## 4. Practice Evidence
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-5/image copy 3.png)
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-5/image copy 4.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-5/image%20copy%203.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-5/image%20copy%204.png)
 
 ## 5. Results Achieved
 
@@ -247,8 +246,8 @@ The steps performed:
 
 ## 4. Practice Evidence
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-5/image copy 5.png)
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-5/image copy 6.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-5/image%20copy%205.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-5/image%20copy%206.png)
 
 ## 5. Results Achieved
 
@@ -300,8 +299,8 @@ The steps performed:
 
 ## 4. Practice Evidence
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-5/image copy 7.png)
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-5/image copy 8.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-5/image%20copy%207.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-5/image%20copy%208.png)
 
 ## 5. Results Achieved
 
@@ -389,9 +388,6 @@ The steps performed:
 * Verified that the application could access AWS services through the role.
 
 ## 4. Practice Evidence
-
-
-
 ## 5. Results Achieved
 
 After completing this lab, I understood that IAM Role is a safer way to grant permissions to applications running on EC2. Instead of storing Access Keys directly, applications can use temporary role credentials, reducing the risk of credential exposure.

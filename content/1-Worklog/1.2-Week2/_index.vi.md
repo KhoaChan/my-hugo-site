@@ -130,8 +130,9 @@ Trong quá trình thực hành, tôi thực hiện các bước sau:
 
 ## 4. Minh chứng cần chụp
 
-![Ảnh tạo IAM User Admin-Khoa](static/images/1-Workblog/Week-2/image.png)
-![Ảnh tạo IAM User Admin-Khoa](static/images/1-Workblog/Week-2/image copy.png)
+![VPC Create Screenshot](/images/1-Workblog/Week-2/vpc-create.png)
+
+![Screenshot of IAM Group Admins](/images/1-Workblog/Week-2/image%20copy.png)
 
 ## 5. Kết quả đạt được
 
@@ -187,8 +188,9 @@ Các bước thực hiện:
 
 ## 4. Minh chứng cần chụp
 
-![Ảnh tạo IAM User Admin-Khoa](static/images/1-Workblog/Week-2/image copy 2.png)
-![Ảnh tạo IAM User Admin-Khoa](static/images/1-Workblog/Week-2/image copy 3.png)
+![Screenshot of IAM Group Admins](/images/1-Workblog/Week-2/image%20copy%202.png)
+
+![Subnet Configuration Screenshot](/images/1-Workblog/Week-2/image%20copy%203.png)
 
 ## 5. Kết quả đạt được
 
@@ -258,11 +260,15 @@ echo "<h1>Welcome to Khoa's AWS Web Server</h1>" > /var/www/html/index.html
 
 ## 4. Minh chứng cần chụp
 
-![Ảnh tạo IAM User Admin-Khoa](static/images/1-Workblog/Week-2/image copy 4.png)
-![Ảnh tạo IAM User Admin-Khoa](static/images/1-Workblog/Week-2/image copy 5.png)
-![Ảnh tạo IAM User Admin-Khoa](static/images/1-Workblog/Week-2/image copy 6.png)
-![Ảnh tạo IAM User Admin-Khoa](static/images/1-Workblog/Week-2/image copy 7.png)
-![Ảnh tạo IAM User Admin-Khoa](static/images/1-Workblog/Week-2/image copy 8.png)
+![EC2 Instance Configuration](/images/1-Workblog/Week-2/image%20copy%204.png)
+
+![EC2 Security Group Configuration](/images/1-Workblog/Week-2/image%20copy%205.png)
+
+![EC2 Running Instance](/images/1-Workblog/Week-2/image%20copy%206.png)
+
+![EC2 Public IP Website Test](/images/1-Workblog/Week-2/image%20copy%207.png)
+
+![EC2 Public IP Website Test](/images/1-Workblog/Week-2/image%20copy%208.png)
 
 ## 5. Kết quả đạt được
 
@@ -336,10 +342,13 @@ Bucket Policy mẫu:
 
 ## 4. Minh chứng cần chụp
 
-![Ảnh tạo IAM User Admin-Khoa](static/images/1-Workblog/Week-2/image copy 9.png)
-![Ảnh tạo IAM User Admin-Khoa](static/images/1-Workblog/Week-2/image copy 10.png)
-![Ảnh tạo IAM User Admin-Khoa](static/images/1-Workblog/Week-2/image copy 11.png)
-![Ảnh tạo IAM User Admin-Khoa](static/images/1-Workblog/Week-2/image copy 12.png)
+![S3 Static Website Hosting](/images/1-Workblog/Week-2/image%20copy%209.png)
+
+![S3 Bucket Policy](/images/1-Workblog/Week-2/image%20copy%2010.png)
+
+![S3 Website Endpoint Test](/images/1-Workblog/Week-2/image%20copy%2011.png)
+
+![RDS MySQL Engine Selection](/images/1-Workblog/Week-2/image%20copy%2012.png)
 
 ## 5. Kết quả đạt được
 
@@ -396,9 +405,11 @@ Các bước thực hiện:
 
 ## 4. Minh chứng cần chụp
 
-![Ảnh tạo IAM User Admin-Khoa](static/images/1-Workblog/Week-2/image copy 13.png)
-![Ảnh tạo IAM User Admin-Khoa](static/images/1-Workblog/Week-2/image copy 14.png)
-![Ảnh tạo IAM User Admin-Khoa](static/images/1-Workblog/Week-2/image copy 15.png)
+![RDS Instance Configuration](/images/1-Workblog/Week-2/image%20copy%2013.png)
+
+![RDS Storage Configuration](/images/1-Workblog/Week-2/image%20copy%2014.png)
+
+![RDS Available Status and Endpoint](/images/1-Workblog/Week-2/image%20copy%2015.png)
 
 ## 5. Kết quả đạt được
 

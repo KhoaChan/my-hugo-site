@@ -7,7 +7,6 @@ pre: " <b> 6. </b> "
 ---
 
 
-TTự đánh giá quá trình thực tập
 
 Trong thời gian thực tập tại First Cloud AI Journey – Workforce Bootcamp 2026, tôi đã có cơ hội được học tập, rèn luyện và tiếp cận với môi trường làm việc thực tế trong lĩnh vực điện toán đám mây. Đây là khoảng thời gian giúp tôi củng cố lại kiến thức đã học, đồng thời mở rộng thêm nhiều kỹ năng mới liên quan đến AWS, hạ tầng cloud, bảo mật, mạng, lưu trữ, CI/CD và quản trị tài nguyên.
 

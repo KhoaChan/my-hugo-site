@@ -8,8 +8,6 @@ pre: " <b> 1.3. </b> "
 
 
 
-# Worklog Tuần 3
-
 ## I. Tóm tắt tổng quan
 
 Tuần 3 là giai đoạn tôi bắt đầu chuyển từ việc triển khai hạ tầng cơ bản sang thiết kế các mô hình mạng và vận hành nâng cao hơn trên AWS. Nếu ở các tuần trước tôi chủ yếu làm quen với IAM, VPC, EC2, S3 và RDS, thì trong tuần này tôi tập trung nhiều hơn vào các nội dung liên quan đến giám sát, kiểm soát chi phí, DNS nội bộ, quản trị bằng dòng lệnh, thiết kế mạng nhiều tầng và cân bằng tải.
@@ -98,11 +96,11 @@ Các bước thực hiện:
 
 ## 4. Minh chứng thực hành
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-3/image.png)
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-2/image copy.png)
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-3/image copy 2.png)
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-3/image copy 3.png)
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-3/image copy 4.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy%202.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy%203.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy%204.png)
 
 ## 5. Kết quả đạt được
 
@@ -147,7 +145,7 @@ Các bước thực hiện:
 
 ## 4. Minh chứng thực hành
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-3/image copy 5.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy%205.png)
 
 ## 5. Kết quả đạt được
 
@@ -194,8 +192,8 @@ Các bước thực hiện:
 
 ## 4. Minh chứng thực hành
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-3/image copy 6.png)
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-3/image copy 7.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy%206.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy%207.png)
 
 ## 5. Kết quả đạt được
 
@@ -244,7 +242,7 @@ aws ec2 describe-instances --query "Reservations[*].Instances[*].[InstanceId,Sta
 
 ## 4. Minh chứng thực hành
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-3/image copy 8.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy%208.png)
 
 ## 5. Kết quả đạt được
 
@@ -295,10 +293,10 @@ Các bước thực hiện:
 
 ## 4. Minh chứng thực hành
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-3/image copy 9.png)
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-3/image copy 10.png)
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-3/image copy 11.png)
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-3/image copy 12.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy%209.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy%2010.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy%2011.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy%2012.png)
 
 ## 5. Kết quả đạt được
 
@@ -350,9 +348,9 @@ Các bước thực hiện:
 
 ## 4. Minh chứng thực hành
 
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-3/image copy 13.png)
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-3/image copy 14.png)
-![Screenshot of creating IAM User Admin-Khoa](static/images/1-Workblog/Week-3/image copy 15.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy%2013.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy%2014.png)
+![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy%2015.png)
 
 ## 5. Kết quả đạt được
 
