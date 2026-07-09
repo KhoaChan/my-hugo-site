@@ -92,11 +92,11 @@ The steps performed:
 * Reviewed the alarm configuration and saved it.
 
 ## 4. Practice Evidence
-![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image.png)
-![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy.png)
-![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy%202.png)
-![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy%203.png)
-![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy%204.png)
+![Screenshot of creating IAM User Admin-Khoa](/my-hugo-site/images/1-Workblog/Week-3/image.png)
+![Screenshot of creating IAM User Admin-Khoa](/my-hugo-site/images/1-Workblog/Week-3/image%20copy.png)
+![Screenshot of creating IAM User Admin-Khoa](/my-hugo-site/images/1-Workblog/Week-3/image%20copy%202.png)
+![Screenshot of creating IAM User Admin-Khoa](/my-hugo-site/images/1-Workblog/Week-3/image%20copy%203.png)
+![Screenshot of creating IAM User Admin-Khoa](/my-hugo-site/images/1-Workblog/Week-3/image%20copy%204.png)
 
 ## 5. Results Achieved
 
@@ -141,7 +141,7 @@ The steps performed:
 
 ## 4. Practice Evidence
 
-![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy%205.png)
+![Screenshot of creating IAM User Admin-Khoa](/my-hugo-site/images/1-Workblog/Week-3/image%20copy%205.png)
 
 ## 5. Results Achieved
 
@@ -188,8 +188,8 @@ The steps performed:
 
 ## 4. Practice Evidence
 
-![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy%206.png)
-![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy%207.png)
+![Screenshot of creating IAM User Admin-Khoa](/my-hugo-site/images/1-Workblog/Week-3/image%20copy%206.png)
+![Screenshot of creating IAM User Admin-Khoa](/my-hugo-site/images/1-Workblog/Week-3/image%20copy%207.png)
 
 ## 5. Results Achieved
 
@@ -238,7 +238,7 @@ aws ec2 describe-instances --query "Reservations[*].Instances[*].[InstanceId,Sta
 
 ## 4. Practice Evidence
 
-![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy%208.png)
+![Screenshot of creating IAM User Admin-Khoa](/my-hugo-site/images/1-Workblog/Week-3/image%20copy%208.png)
 
 ## 5. Results Achieved
 
@@ -289,10 +289,10 @@ The steps performed:
 
 ## 4. Practice Evidence
 
-![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy%209.png)
-![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy%2010.png)
-![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy%2011.png)
-![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy%2012.png)
+![Screenshot of creating IAM User Admin-Khoa](/my-hugo-site/images/1-Workblog/Week-3/image%20copy%209.png)
+![Screenshot of creating IAM User Admin-Khoa](/my-hugo-site/images/1-Workblog/Week-3/image%20copy%2010.png)
+![Screenshot of creating IAM User Admin-Khoa](/my-hugo-site/images/1-Workblog/Week-3/image%20copy%2011.png)
+![Screenshot of creating IAM User Admin-Khoa](/my-hugo-site/images/1-Workblog/Week-3/image%20copy%2012.png)
 
 ## 5. Results Achieved
 
@@ -344,10 +344,10 @@ The steps performed:
 
 ## 4. Practice Evidence
 
-![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy%209.png)
-![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy%2010.png)
-![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy%2011.png)
-![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-3/image%20copy%2012.png)
+![Screenshot of creating IAM User Admin-Khoa](/my-hugo-site/images/1-Workblog/Week-3/image%20copy%209.png)
+![Screenshot of creating IAM User Admin-Khoa](/my-hugo-site/images/1-Workblog/Week-3/image%20copy%2010.png)
+![Screenshot of creating IAM User Admin-Khoa](/my-hugo-site/images/1-Workblog/Week-3/image%20copy%2011.png)
+![Screenshot of creating IAM User Admin-Khoa](/my-hugo-site/images/1-Workblog/Week-3/image%20copy%2012.png)
 
 ## 5. Results Achieved
 

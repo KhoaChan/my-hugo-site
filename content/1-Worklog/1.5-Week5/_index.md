@@ -100,7 +100,7 @@ The steps performed:
 
 ## 4. Practice Evidence
 
-![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-5/image.png)
+![Screenshot of creating IAM User Admin-Khoa](/my-hugo-site/images/1-Workblog/Week-5/image.png)
 
 ## 5. Results Achieved
 
@@ -152,8 +152,8 @@ The steps performed:
 
 ## 4. Practice Evidence
 
-![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-5/image%20copy.png)
-![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-5/image%20copy%202.png)
+![Screenshot of creating IAM User Admin-Khoa](/my-hugo-site/images/1-Workblog/Week-5/image%20copy.png)
+![Screenshot of creating IAM User Admin-Khoa](/my-hugo-site/images/1-Workblog/Week-5/image%20copy%202.png)
 
 ## 5. Results Achieved
 
@@ -199,8 +199,8 @@ The steps performed:
 
 ## 4. Practice Evidence
 
-![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-5/image%20copy%203.png)
-![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-5/image%20copy%204.png)
+![Screenshot of creating IAM User Admin-Khoa](/my-hugo-site/images/1-Workblog/Week-5/image%20copy%203.png)
+![Screenshot of creating IAM User Admin-Khoa](/my-hugo-site/images/1-Workblog/Week-5/image%20copy%204.png)
 
 ## 5. Results Achieved
 
@@ -246,8 +246,8 @@ The steps performed:
 
 ## 4. Practice Evidence
 
-![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-5/image%20copy%205.png)
-![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-5/image%20copy%206.png)
+![Screenshot of creating IAM User Admin-Khoa](/my-hugo-site/images/1-Workblog/Week-5/image%20copy%205.png)
+![Screenshot of creating IAM User Admin-Khoa](/my-hugo-site/images/1-Workblog/Week-5/image%20copy%206.png)
 
 ## 5. Results Achieved
 
@@ -299,8 +299,8 @@ The steps performed:
 
 ## 4. Practice Evidence
 
-![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-5/image%20copy%207.png)
-![Screenshot of creating IAM User Admin-Khoa](/images/1-Workblog/Week-5/image%20copy%208.png)
+![Screenshot of creating IAM User Admin-Khoa](/my-hugo-site/images/1-Workblog/Week-5/image%20copy%207.png)
+![Screenshot of creating IAM User Admin-Khoa](/my-hugo-site/images/1-Workblog/Week-5/image%20copy%208.png)
 
 ## 5. Results Achieved
 

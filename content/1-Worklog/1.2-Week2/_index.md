@@ -129,9 +129,9 @@ During the practice process, I performed the following steps:
 
 ## 4. Screenshots/Evidence
 
-![VPC Create Screenshot](/images/1-Workblog/Week-2/vpc-create.png)
+![VPC Create Screenshot](/my-hugo-site/my-hugo-site/images/1-Workblog/Week-2/vpc-create.png)
 
-![Screenshot of IAM Group Admins](/images/1-Workblog/Week-2/image%20copy.png)
+![Screenshot of IAM Group Admins](/my-hugo-site/images/1-Workblog/Week-2/image%20copy.png)
 
 ## 5. Results Achieved
 
@@ -187,9 +187,9 @@ The steps performed:
 
 ## 4. Screenshots/Evidence
 
-![Screenshot of IAM Group Admins](/images/1-Workblog/Week-2/image%20copy%202.png)
+![Screenshot of IAM Group Admins](/my-hugo-site/images/1-Workblog/Week-2/image%20copy%202.png)
 
-![Subnet Configuration Screenshot](/images/1-Workblog/Week-2/image%20copy%203.png)
+![Subnet Configuration Screenshot](/my-hugo-site/images/1-Workblog/Week-2/image%20copy%203.png)
 
 ## 5. Results Achieved
 
@@ -259,15 +259,15 @@ echo "<h1>Welcome to Khoa's AWS Web Server</h1>" > /var/www/html/index.html
 
 ## 4. Screenshots/Evidence
 
-![EC2 Instance Configuration](/images/1-Workblog/Week-2/image%20copy%204.png)
+![EC2 Instance Configuration](/my-hugo-site/images/1-Workblog/Week-2/image%20copy%204.png)
 
-![EC2 Security Group Configuration](/images/1-Workblog/Week-2/image%20copy%205.png)
+![EC2 Security Group Configuration](/my-hugo-site/images/1-Workblog/Week-2/image%20copy%205.png)
 
-![EC2 Running Instance](/images/1-Workblog/Week-2/image%20copy%206.png)
+![EC2 Running Instance](/my-hugo-site/images/1-Workblog/Week-2/image%20copy%206.png)
 
-![EC2 Public IP Website Test](/images/1-Workblog/Week-2/image%20copy%207.png)
+![EC2 Public IP Website Test](/my-hugo-site/images/1-Workblog/Week-2/image%20copy%207.png)
 
-![EC2 Public IP Website Test](/images/1-Workblog/Week-2/image%20copy%208.png)
+![EC2 Public IP Website Test](/my-hugo-site/images/1-Workblog/Week-2/image%20copy%208.png)
 
 ## 5. Results Achieved
 
@@ -341,13 +341,13 @@ Sample Bucket Policy:
 
 ## 4. Screenshots/Evidence
 
-![S3 Static Website Hosting](/images/1-Workblog/Week-2/image%20copy%209.png)
+![S3 Static Website Hosting](/my-hugo-site/images/1-Workblog/Week-2/image%20copy%209.png)
 
-![S3 Bucket Policy](/images/1-Workblog/Week-2/image%20copy%2010.png)
+![S3 Bucket Policy](/my-hugo-site/images/1-Workblog/Week-2/image%20copy%2010.png)
 
-![S3 Website Endpoint Test](/images/1-Workblog/Week-2/image%20copy%2011.png)
+![S3 Website Endpoint Test](/my-hugo-site/images/1-Workblog/Week-2/image%20copy%2011.png)
 
-![RDS MySQL Engine Selection](/images/1-Workblog/Week-2/image%20copy%2012.png)
+![RDS MySQL Engine Selection](/my-hugo-site/images/1-Workblog/Week-2/image%20copy%2012.png)
 
 
 ## 5. Results Achieved
@@ -405,11 +405,11 @@ The steps performed:
 
 ## 4. Screenshots/Evidence
 
-![RDS Instance Configuration](/images/1-Workblog/Week-2/image%20copy%2013.png)
+![RDS Instance Configuration](/my-hugo-site/images/1-Workblog/Week-2/image%20copy%2013.png)
 
-![RDS Storage Configuration](/images/1-Workblog/Week-2/image%20copy%2014.png)
+![RDS Storage Configuration](/my-hugo-site/images/1-Workblog/Week-2/image%20copy%2014.png)
 
-![RDS Available Status and Endpoint](/images/1-Workblog/Week-2/image%20copy%2015.png)
+![RDS Available Status and Endpoint](/my-hugo-site/images/1-Workblog/Week-2/image%20copy%2015.png)
 
 ## 5. Results Achieved
 
