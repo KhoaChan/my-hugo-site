@@ -7,7 +7,6 @@ pre: " <b> 1.6. </b> "
 ---
 
 
-# Week 6 Worklog
 
 ## I. Executive Summary
 
@@ -93,17 +92,8 @@ The steps performed:
 
 ## 4. Practice Evidence
 
-<!-- Add your screenshot here -->
-
-<!-- Example:
-![S3 Data Lake Bucket](your-image-path.png)
-
-![S3 Bucket Objects](your-image-path.png)
-
-![AWS Glue Crawler](your-image-path.png)
-
-![Glue Data Catalog Table](your-image-path.png)
--->
+![Week 6 Screenshot](/my-hugo-site/images/1-Workblog/Week-6/image.png)
+![Week 6 Screenshot](/my-hugo-site/images/1-Workblog/Week-6/image%20copy.png)
 
 ## 5. Results Achieved
 
@@ -150,15 +140,8 @@ The steps performed:
 
 ## 4. Practice Evidence
 
-<!-- Add your screenshot here -->
-
-<!-- Example:
-![DynamoDB Table Configuration](your-image-path.png)
-
-![DynamoDB Items View](your-image-path.png)
-
-![DynamoDB Query Result](your-image-path.png)
--->
+![Week 6 Screenshot](/my-hugo-site/images/1-Workblog/Week-6/image%20copy%202.png)
+![Week 6 Screenshot](/my-hugo-site/images/1-Workblog/Week-6/image%20copy%203.png)
 
 ## 5. Results Achieved
 
@@ -204,15 +187,8 @@ The steps performed:
 
 ## 4. Practice Evidence
 
-<!-- Add your screenshot here -->
-
-<!-- Example:
-![AWS Glue Crawler Status](your-image-path.png)
-
-![Athena Query Editor](your-image-path.png)
-
-![Athena Query Result](your-image-path.png)
--->
+![Week 6 Screenshot](/my-hugo-site/images/1-Workblog/Week-6/image%20copy%204.png)
+![Week 6 Screenshot](/my-hugo-site/images/1-Workblog/Week-6/image%20copy%205.png)
 
 ## 5. Results Achieved
 
@@ -259,15 +235,8 @@ The steps performed:
 
 ## 4. Practice Evidence
 
-<!-- Add your screenshot here -->
-
-<!-- Example:
-![Kinesis Stream Metrics](your-image-path.png)
-
-![Amazon EMR Cluster](your-image-path.png)
-
-![Amazon QuickSight Dashboard](your-image-path.png)
--->
+![Week 6 Screenshot](/my-hugo-site/images/1-Workblog/Week-6/image%20copy%206.png)
+![Week 6 Screenshot](/my-hugo-site/images/1-Workblog/Week-6/image%20copy%207.png)
 
 ## 5. Results Achieved
 

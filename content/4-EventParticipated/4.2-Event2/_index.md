@@ -6,121 +6,87 @@ chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
+# REPORT ON THE EVENT "FCJ MEETUP - JUNE 2026"
 
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+* **Time:** 08:30 - 12:00, Saturday, June 06, 2026
+* **Location:** Floor 26, Bitexco Financial Tower, 02 Hai Trieu Street, Ben Nghe Ward, District 1, Ho Chi Minh City
+* **Role:** Attendee
 
-### Event Objectives
+---
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+## EVENT OBJECTIVES
 
-### Speakers
+* Share practical career development roadmaps from traditional system operations to Cloud and DevOps roles.
+* Popularize knowledge about application containerization and the outstanding advantages of Docker over traditional virtualization.
+* Introduce advanced security and data management solutions on the AWS platform, such as GraphRAG, ML-NIDS, and Game connection via WebSockets.
+* Build soft skills and an effective teamwork mindset in a tech project environment.
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+---
 
-### Key Highlights
+## PRESENTATION OVERVIEW
 
-#### Identifying the drawbacks of legacy application architecture
+The "FCJ Meetup - June 2026" technology seminar focused on modernizing infrastructure, optimizing software development processes, and applying AI/ML in security. Below is the detailed schedule:
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+| Timeline | Speaker | Main Topic |
+| :--- | :--- | :--- |
+| 09:00 - 09:25 | Truong Huy Phuoc | The Art of Effective Teamwork |
+| 09:25 - 09:55 | Tran Trung Vinh | Career Roadmap: From IT Helpdesk to Senior Sysadmin |
+| 09:55 - 10:20 | Bao Huynh | Container Technology with Docker |
+| 10:20 - 10:45 | Viet Phat | Building GraphRAG Applications on AWS |
+| 10:45 - 11:10 | Le Hoang Gia Dai | Machine Learning-based Network Intrusion Detection System (NIDS) |
+| 11:10 - 11:35 | Nguyen Quoc Bao | Multiplayer Game Connection with AWS WebSockets |
 
-#### Transitioning to modern application architecture – Microservices
+---
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+## DETAILED DISCUSSIONS
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+### 1. The Art of Effective Teamwork
+* **Speaker:** Truong Huy Phuoc.
+* **Technical Information:**
+  * Proposed 4 golden rules: Clear goals, Right person for the right job, Open communication, and Personal responsibility.
+  * Using digital support tools: Trello, ClickUp for task management; Slack, Discord for communication.
+* **Practical Application:** Enhancing work performance through smooth coordination among members.
 
-#### Domain-Driven Design (DDD)
+### 2. From IT Helpdesk to Senior Sysadmin
+* **Speaker:** Tran Trung Vinh (System Administrator at Central Retail Group).
+* **Technical Information:**
+  * Shared core skills: Solving problems under pressure, understanding system operations deeply, and automating repetitive tasks.
+  * Shifting mindset from On-premise (managing physical servers) to Cloud Mindset (elastic scalability, pay-as-you-go).
+* **Practical Application:** Practical learning roadmap for students and entry-level employees to progress to Cloud/DevOps roles.
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+### 3. Container Technology with Docker
+* **Speaker:** Bao Huynh (Junior Cloud Native Developer).
+* **Technical Information:**
+  * Explained the difference between Virtualization (heavy, each VM has its own OS) and Containerization (lightweight, shared OS kernel).
+  * Docker helps package applications with all their dependencies, ensuring consistency ("runs the same everywhere").
+* **Practical Application:** Optimizing infrastructure resources and accelerating the CI/CD pipeline.
 
-#### Event-Driven Architecture
+### 4. Building GraphRAG Applications on AWS
+* **Speaker:** Viet Phat (Swinburne University of Technology).
+* **Technical Information:**
+  * Combining RAG with Knowledge Graphs to resolve complex queries requiring multi-hop reasoning.
+  * Architecture using Amazon Bedrock for entity extraction and Amazon Neptune for graph storage.
+* **Practical Application:** Providing more accurate answers for LLMs based on the relationships between data points.
 
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
+### 5. ML-based Network Intrusion Detection System (NIDS)
+* **Speaker:** Le Hoang Gia Dai.
+* **Technical Information:**
+  * Overcoming the weaknesses of traditional WAFs (which only block based on pre-defined rules) by using Machine Learning to detect anomalous behavior and Zero-day attacks.
+  * Training models based on the CSE-CIC-IDS2018 dataset and deploying them on AWS infrastructure (EC2, Lambda, S3).
+* **Practical Application:** Strengthening proactive defense capabilities for enterprise network systems.
 
-#### Compute Evolution
+### 6. Multiplayer Game Connection with AWS WebSockets
+* **Speaker:** Nguyen Quoc Bao.
+* **Technical Information:**
+  * Architecture connecting a Godot Client with AWS API Gateway via WebSocket protocol for two-way, real-time data transmission.
+  * Managing player state and matchmaking through AWS Lambda and DynamoDB.
+* **Practical Application:** Low-cost solution for Turn-based games or online lobbies.
 
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
+---
 
-#### Amazon Q Developer
+## SUMMARY AND LESSONS LEARNED
 
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
-
-### Key Takeaways
-
-#### Design Mindset
-
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
-
-#### Technical Architecture
-
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
-
-#### Modernization Strategy
-
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
-
-### Applying to Work
-
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
-
-### Event Experience
-
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
-
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
-
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
-
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
-
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
-
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
-
-#### Some event photos
-*Add your event photos here*  
-
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+* **Digital transformation is a journey of mindset:** Shifting from manual management to automation and the Cloud requires a major change in problem-solving approaches (Cloud Mindset).
+* **Containers are the new standard:** Docker is not just a tool but a core platform for modernizing applications and optimizing infrastructure costs.
+* **The combination of AI and Security:** AI/ML is no longer just a trend but a mandatory tool for dealing with increasingly complex cybersecurity threats.
+* **Soft skills determine success:** Technology can be learned, but teamwork mindset and personal responsibility are the factors that take a project far.

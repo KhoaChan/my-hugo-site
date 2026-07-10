@@ -129,7 +129,7 @@ During the practice process, I performed the following steps:
 
 ## 4. Screenshots/Evidence
 
-![VPC Create Screenshot](/my-hugo-site/my-hugo-site/images/1-Workblog/Week-2/vpc-create.png)
+![VPC Create Screenshot](/my-hugo-site/images/1-Workblog/Week-2/vpc-create.png)
 
 ![Screenshot of IAM Group Admins](/my-hugo-site/images/1-Workblog/Week-2/image%20copy.png)
 

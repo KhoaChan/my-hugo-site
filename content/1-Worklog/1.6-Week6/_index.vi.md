@@ -7,8 +7,6 @@ pre: " <b> 1.6. </b> "
 ---
 
 
-# Worklog Tuần 6
-
 ## I. Tóm tắt tổng quan
 
 Tuần 6 là giai đoạn tôi tập trung vào các nội dung liên quan đến **Data Lake, NoSQL Database, phân tích dữ liệu phi máy chủ và xử lý dữ liệu lớn trên AWS**. Nếu các tuần trước chủ yếu tập trung vào hạ tầng mạng, bảo mật, máy chủ, CI/CD và quản trị quyền truy cập, thì tuần này tôi đi sâu hơn vào cách xây dựng nền tảng dữ liệu phục vụ phân tích và trực quan hóa thông tin.
@@ -93,17 +91,8 @@ Các bước thực hiện:
 
 ## 4. Minh chứng thực hành
 
-<!-- Thêm ảnh minh chứng tại đây -->
-
-<!-- Ví dụ:
-![S3 Data Lake Bucket](đường-dẫn-hình-ảnh-của-bạn.png)
-
-![S3 Bucket Objects](đường-dẫn-hình-ảnh-của-bạn.png)
-
-![AWS Glue Crawler](đường-dẫn-hình-ảnh-của-bạn.png)
-
-![Glue Data Catalog Table](đường-dẫn-hình-ảnh-của-bạn.png)
--->
+![Week 6 Screenshot](/my-hugo-site/images/1-Workblog/Week-6/image.png)
+![Week 6 Screenshot](/my-hugo-site/images/1-Workblog/Week-6/image%20copy.png)
 
 ## 5. Kết quả đạt được
 
@@ -150,15 +139,8 @@ Các bước thực hiện:
 
 ## 4. Minh chứng thực hành
 
-<!-- Thêm ảnh minh chứng tại đây -->
-
-<!-- Ví dụ:
-![DynamoDB Table Configuration](đường-dẫn-hình-ảnh-của-bạn.png)
-
-![DynamoDB Items View](đường-dẫn-hình-ảnh-của-bạn.png)
-
-![DynamoDB Query Result](đường-dẫn-hình-ảnh-của-bạn.png)
--->
+![Week 6 Screenshot](/my-hugo-site/images/1-Workblog/Week-6/image%20copy%202.png)
+![Week 6 Screenshot](/my-hugo-site/images/1-Workblog/Week-6/image%20copy%203.png)
 
 ## 5. Kết quả đạt được
 
@@ -204,15 +186,8 @@ Các bước thực hiện:
 
 ## 4. Minh chứng thực hành
 
-<!-- Thêm ảnh minh chứng tại đây -->
-
-<!-- Ví dụ:
-![AWS Glue Crawler Status](đường-dẫn-hình-ảnh-của-bạn.png)
-
-![Athena Query Editor](đường-dẫn-hình-ảnh-của-bạn.png)
-
-![Athena Query Result](đường-dẫn-hình-ảnh-của-bạn.png)
--->
+![Week 6 Screenshot](/my-hugo-site/images/1-Workblog/Week-6/image%20copy%204.png)
+![Week 6 Screenshot](/my-hugo-site/images/1-Workblog/Week-6/image%20copy%205.png)
 
 ## 5. Kết quả đạt được
 
@@ -259,15 +234,8 @@ Các bước thực hiện:
 
 ## 4. Minh chứng thực hành
 
-<!-- Thêm ảnh minh chứng tại đây -->
-
-<!-- Ví dụ:
-![Kinesis Stream Metrics](đường-dẫn-hình-ảnh-của-bạn.png)
-
-![Amazon EMR Cluster](đường-dẫn-hình-ảnh-của-bạn.png)
-
-![Amazon QuickSight Dashboard](đường-dẫn-hình-ảnh-của-bạn.png)
--->
+![Week 6 Screenshot](/my-hugo-site/images/1-Workblog/Week-6/image%20copy%206.png)
+![Week 6 Screenshot](/my-hugo-site/images/1-Workblog/Week-6/image%20copy%207.png)
 
 ## 5. Kết quả đạt được
 

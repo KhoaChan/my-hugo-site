@@ -6,17 +6,16 @@ chapter: false
 pre: " <b> 3. </b> "
 ---
 
-{{% notice warning %}}  
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
-Tại đây sẽ là phần liệt kê, giới thiệu các blogs mà các bạn đã đăng trên [AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj). Ví dụ:
 
-###  [Blog 1 - SESSION POLICIES TRONG AMAZON EKS POD IDENTITY](3.1-Blog1/)
-Blog này giới thiệu Amazon EKS Pod Identity vừa bổ sung tính năng session policies, cho phép bạn thu hẹp quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo thêm nhiều IAM roles riêng biệt. Đây là bước tiến quan trọng giúp áp dụng nguyên tắc least privilege hiệu quả hơn trong môi trường Kubernetes quy mô lớn.
+###  [Blog 1 - XÁC THỰC NGƯỜI DÙNG VÀ QUẢN LÝ SESSION VỚI AMAZON AURORA DSQL](3.1-Blog1/)
+Trong các ứng dụng backend, authentication và session management gần như là phần không thể thiếu.
+Người dùng đăng ký, đăng nhập, giữ phiên làm việc, đăng xuất, thu hồi session — nghe có vẻ quen thuộc, nhưng khi hệ thống bắt đầu mở rộng thì bài toán này không còn đơn giản.
 
-###  [Blog 2 - ...](3.2-Blog2/)
-Blog này giới thiệu Amazon EKS Pod Identity vừa bổ sung tính năng session policies, cho phép bạn thu hẹp quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo thêm nhiều IAM roles riêng biệt. Đây là bước tiến quan trọng giúp áp dụng nguyên tắc least privilege hiệu quả hơn trong môi trường Kubernetes quy mô lớn.
+###  [Blog 2 - TỰ ĐỘNG SAO CHÉP CẤU HÌNH S3 BUCKET GIỮA CÁC REGION TRÊN AWS](3.2-Blog2/)
+Khi các doanh nghiệp vận hành hệ thống trên AWS trong thời gian dài, việc có hàng trăm hoặc hàng nghìn Amazon S3 bucket trong cùng một Region là điều rất phổ biến. Mỗi bucket có thể được tạo ra ở những thời điểm khác nhau, bởi những nhóm khác nhau, bằng nhiều cách khác nhau như AWS Management Console, script nội bộ hoặc các công cụ tự động hóa cũ.
 
-###  [Blog 3 - ...](3.3-Blog3/)
-Blog này giới thiệu Amazon EKS Pod Identity vừa bổ sung tính năng session policies, cho phép bạn thu hẹp quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo thêm nhiều IAM roles riêng biệt. Đây là bước tiến quan trọng giúp áp dụng nguyên tắc least privilege hiệu quả hơn trong môi trường Kubernetes quy mô lớn.
+###  [Blog 3 - TỐI ƯU HÓA HIỆU NĂNG VÀ ĐIỀU PHỐI DỊCH VỤ TRONG KIẾN TRÚC SERVERLESS QUY MÔ LỚN](3.3-Blog3/)
+Khi mới bắt đầu áp dụng mô hình **Serverless**, hầu hết chúng ta đều bị thu hút bởi lời hứa quen thuộc của các nhà cung cấp dịch vụ đám mây: chỉ cần tập trung vào việc viết mã, triển khai ứng dụng và hệ thống sẽ tự động mở rộng theo nhu cầu.
+Tuy nhiên, giữa lý thuyết và thực tế vận hành ở quy mô doanh nghiệp luôn tồn tại một khoảng cách rất lớn.
+Một câu hỏi quan trọng được đặt ra là: điều gì sẽ xảy ra khi hệ thống không chỉ xử lý vài nghìn request, mà phải mở rộng đến hàng trăm nghìn hoặc thậm chí **1 triệu AWS Lambda function chạy đồng thời**?
