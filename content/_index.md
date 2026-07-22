@@ -1,6 +1,6 @@
 ---
 title: "Internship Report"
-date: 2024-01-01
+date: 2026-04-17
 weight: 1
 chapter: false
 ---
@@ -23,7 +23,7 @@ chapter: false
 
 &emsp; **Class:** 22DTHG2
 
-&emsp; **Internship Company:** Amazon Web Services Viet Nam Company Limited
+&emsp; **Internship Company:** Amazon Web Services Vietnam Company Limited
 
 &emsp; **Internship Position:** Workforce Bootcamp - First Cloud AI Journey
 

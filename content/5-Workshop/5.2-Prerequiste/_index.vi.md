@@ -1,242 +1,184 @@
 ---
-title : "Các bước chuẩn bị"
-date : 2024-01-01 
-weight : 2
-chapter : false
-pre : " <b> 5.2. </b> "
+title: "Điều kiện tiên quyết"
+date: 2026-07-10
+weight: 2
+chapter: false
+pre: "<b>5.2. </b>"
 ---
 
-#### IAM permissions
-Gắn IAM permission policy sau vào tài khoản aws user của bạn để triển khai và dọn dẹp tài nguyên trong workshop này.
-```
-{
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Sid": "VisualEditor0",
-            "Effect": "Allow",
-            "Action": [
-                "cloudformation:*",
-                "cloudwatch:*",
-                "ec2:AcceptTransitGatewayPeeringAttachment",
-                "ec2:AcceptTransitGatewayVpcAttachment",
-                "ec2:AllocateAddress",
-                "ec2:AssociateAddress",
-                "ec2:AssociateIamInstanceProfile",
-                "ec2:AssociateRouteTable",
-                "ec2:AssociateSubnetCidrBlock",
-                "ec2:AssociateTransitGatewayRouteTable",
-                "ec2:AssociateVpcCidrBlock",
-                "ec2:AttachInternetGateway",
-                "ec2:AttachNetworkInterface",
-                "ec2:AttachVolume",
-                "ec2:AttachVpnGateway",
-                "ec2:AuthorizeSecurityGroupEgress",
-                "ec2:AuthorizeSecurityGroupIngress",
-                "ec2:CreateClientVpnEndpoint",
-                "ec2:CreateClientVpnRoute",
-                "ec2:CreateCustomerGateway",
-                "ec2:CreateDhcpOptions",
-                "ec2:CreateFlowLogs",
-                "ec2:CreateInternetGateway",
-                "ec2:CreateLaunchTemplate",
-                "ec2:CreateNetworkAcl",
-                "ec2:CreateNetworkInterface",
-                "ec2:CreateNetworkInterfacePermission",
-                "ec2:CreateRoute",
-                "ec2:CreateRouteTable",
-                "ec2:CreateSecurityGroup",
-                "ec2:CreateSubnet",
-                "ec2:CreateSubnetCidrReservation",
-                "ec2:CreateTags",
-                "ec2:CreateTransitGateway",
-                "ec2:CreateTransitGatewayPeeringAttachment",
-                "ec2:CreateTransitGatewayPrefixListReference",
-                "ec2:CreateTransitGatewayRoute",
-                "ec2:CreateTransitGatewayRouteTable",
-                "ec2:CreateTransitGatewayVpcAttachment",
-                "ec2:CreateVpc",
-                "ec2:CreateVpcEndpoint",
-                "ec2:CreateVpcEndpointConnectionNotification",
-                "ec2:CreateVpcEndpointServiceConfiguration",
-                "ec2:CreateVpnConnection",
-                "ec2:CreateVpnConnectionRoute",
-                "ec2:CreateVpnGateway",
-                "ec2:DeleteCustomerGateway",
-                "ec2:DeleteFlowLogs",
-                "ec2:DeleteInternetGateway",
-                "ec2:DeleteNetworkInterface",
-                "ec2:DeleteNetworkInterfacePermission",
-                "ec2:DeleteRoute",
-                "ec2:DeleteRouteTable",
-                "ec2:DeleteSecurityGroup",
-                "ec2:DeleteSubnet",
-                "ec2:DeleteSubnetCidrReservation",
-                "ec2:DeleteTags",
-                "ec2:DeleteTransitGateway",
-                "ec2:DeleteTransitGatewayPeeringAttachment",
-                "ec2:DeleteTransitGatewayPrefixListReference",
-                "ec2:DeleteTransitGatewayRoute",
-                "ec2:DeleteTransitGatewayRouteTable",
-                "ec2:DeleteTransitGatewayVpcAttachment",
-                "ec2:DeleteVpc",
-                "ec2:DeleteVpcEndpoints",
-                "ec2:DeleteVpcEndpointServiceConfigurations",
-                "ec2:DeleteVpnConnection",
-                "ec2:DeleteVpnConnectionRoute",
-                "ec2:Describe*",
-                "ec2:DetachInternetGateway",
-                "ec2:DisassociateAddress",
-                "ec2:DisassociateRouteTable",
-                "ec2:GetLaunchTemplateData",
-                "ec2:GetTransitGatewayAttachmentPropagations",
-                "ec2:ModifyInstanceAttribute",
-                "ec2:ModifySecurityGroupRules",
-                "ec2:ModifyTransitGatewayVpcAttachment",
-                "ec2:ModifyVpcAttribute",
-                "ec2:ModifyVpcEndpoint",
-                "ec2:ReleaseAddress",
-                "ec2:ReplaceRoute",
-                "ec2:RevokeSecurityGroupEgress",
-                "ec2:RevokeSecurityGroupIngress",
-                "ec2:RunInstances",
-                "ec2:StartInstances",
-                "ec2:StopInstances",
-                "ec2:UpdateSecurityGroupRuleDescriptionsEgress",
-                "ec2:UpdateSecurityGroupRuleDescriptionsIngress",
-                "iam:AddRoleToInstanceProfile",
-                "iam:AttachRolePolicy",
-                "iam:CreateInstanceProfile",
-                "iam:CreatePolicy",
-                "iam:CreateRole",
-                "iam:DeleteInstanceProfile",
-                "iam:DeletePolicy",
-                "iam:DeleteRole",
-                "iam:DeleteRolePolicy",
-                "iam:DetachRolePolicy",
-                "iam:GetInstanceProfile",
-                "iam:GetPolicy",
-                "iam:GetRole",
-                "iam:GetRolePolicy",
-                "iam:ListPolicyVersions",
-                "iam:ListRoles",
-                "iam:PassRole",
-                "iam:PutRolePolicy",
-                "iam:RemoveRoleFromInstanceProfile",
-                "lambda:CreateFunction",
-                "lambda:DeleteFunction",
-                "lambda:DeleteLayerVersion",
-                "lambda:GetFunction",
-                "lambda:GetLayerVersion",
-                "lambda:InvokeFunction",
-                "lambda:PublishLayerVersion",
-                "logs:CreateLogGroup",
-                "logs:DeleteLogGroup",
-                "logs:DescribeLogGroups",
-                "logs:PutRetentionPolicy",
-                "route53:ChangeTagsForResource",
-                "route53:CreateHealthCheck",
-                "route53:CreateHostedZone",
-                "route53:CreateTrafficPolicy",
-                "route53:DeleteHostedZone",
-                "route53:DisassociateVPCFromHostedZone",
-                "route53:GetHostedZone",
-                "route53:ListHostedZones",
-                "route53domains:ListDomains",
-                "route53domains:ListOperations",
-                "route53domains:ListTagsForDomain",
-                "route53resolver:AssociateResolverEndpointIpAddress",
-                "route53resolver:AssociateResolverRule",
-                "route53resolver:CreateResolverEndpoint",
-                "route53resolver:CreateResolverRule",
-                "route53resolver:DeleteResolverEndpoint",
-                "route53resolver:DeleteResolverRule",
-                "route53resolver:DisassociateResolverEndpointIpAddress",
-                "route53resolver:DisassociateResolverRule",
-                "route53resolver:GetResolverEndpoint",
-                "route53resolver:GetResolverRule",
-                "route53resolver:ListResolverEndpointIpAddresses",
-                "route53resolver:ListResolverEndpoints",
-                "route53resolver:ListResolverRuleAssociations",
-                "route53resolver:ListResolverRules",
-                "route53resolver:ListTagsForResource",
-                "route53resolver:UpdateResolverEndpoint",
-                "route53resolver:UpdateResolverRule",
-                "s3:AbortMultipartUpload",
-                "s3:CreateBucket",
-                "s3:DeleteBucket",
-                "s3:DeleteObject",
-                "s3:GetAccountPublicAccessBlock",
-                "s3:GetBucketAcl",
-                "s3:GetBucketOwnershipControls",
-                "s3:GetBucketPolicy",
-                "s3:GetBucketPolicyStatus",
-                "s3:GetBucketPublicAccessBlock",
-                "s3:GetObject",
-                "s3:GetObjectVersion",
-                "s3:GetBucketVersioning",
-                "s3:ListAccessPoints",
-                "s3:ListAccessPointsForObjectLambda",
-                "s3:ListAllMyBuckets",
-                "s3:ListBucket",
-                "s3:ListBucketMultipartUploads",
-                "s3:ListBucketVersions",
-                "s3:ListJobs",
-                "s3:ListMultipartUploadParts",
-                "s3:ListMultiRegionAccessPoints",
-                "s3:ListStorageLensConfigurations",
-                "s3:PutAccountPublicAccessBlock",
-                "s3:PutBucketAcl",
-                "s3:PutBucketPolicy",
-                "s3:PutBucketPublicAccessBlock",
-                "s3:PutObject",
-                "secretsmanager:CreateSecret",
-                "secretsmanager:DeleteSecret",
-                "secretsmanager:DescribeSecret",
-                "secretsmanager:GetSecretValue",
-                "secretsmanager:ListSecrets",
-                "secretsmanager:ListSecretVersionIds",
-                "secretsmanager:PutResourcePolicy",
-                "secretsmanager:TagResource",
-                "secretsmanager:UpdateSecret",
-                "sns:ListTopics",
-                "ssm:DescribeInstanceProperties",
-                "ssm:DescribeSessions",
-                "ssm:GetConnectionStatus",
-                "ssm:GetParameters",
-                "ssm:ListAssociations",
-                "ssm:ResumeSession",
-                "ssm:StartSession",
-                "ssm:TerminateSession"
-            ],
-            "Resource": "*"
-        }
-    ]
-}
 
-```
+## Giới thiệu
 
-#### Khởi tạo tài nguyên bằng CloudFormation
+Trước khi bắt đầu triển khai **Serverless Video-on-Demand Platform on AWS**, cần chuẩn bị đầy đủ môi trường triển khai, tài khoản AWS và các công cụ phát triển cần thiết. Việc chuẩn bị trước các điều kiện này giúp quá trình cấu hình diễn ra liên tục, hạn chế lỗi phát sinh và đảm bảo tất cả các dịch vụ AWS có thể hoạt động đồng bộ với nhau.
 
-Trong lab này, chúng ta sẽ dùng N.Virginia region (us-east-1).
+Trong phạm vi Workshop này, toàn bộ tài nguyên được triển khai trực tiếp trên Amazon Web Services thông qua AWS Management Console. Một số bước sẽ yêu cầu người thực hiện có quyền tạo tài nguyên mới, cấu hình quyền truy cập và theo dõi trạng thái hoạt động của hệ thống.
 
-Để chuẩn bị cho môi trường làm workshop, chúng ta deploy CloudFormation template sau (click link): [PrivateLinkWorkshop ](https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/quickcreate?templateURL=https://s3.us-east-1.amazonaws.com/reinvent-endpoints-builders-session/Nested.yaml&stackName=PLCloudSetup). Để nguyên các lựa chọn mặc định.
+---
 
-![create stack](/images/5-Workshop/5.2-Prerequisite/create-stack1.png)
+## Tài khoản AWS
 
-+ Lựa chọn 2 mục acknowledgement 
-+ Chọn Create stack
+Để triển khai hệ thống, người thực hiện cần có một tài khoản AWS đang hoạt động và có quyền tạo các dịch vụ cần thiết.
 
-![create stack](/images/5-Workshop/5.2-Prerequisite/create-stack2.png)
+Các dịch vụ sẽ được sử dụng trong Workshop bao gồm:
 
-Quá trình triển khai CloudFormation cần khoảng 15 phút để hoàn thành.
+- Amazon S3
+- Amazon CloudFront
+- Amazon Cognito
+- Amazon API Gateway
+- AWS Lambda
+- Amazon DynamoDB
+- Amazon EventBridge
+- Amazon SQS
+- EventBridge Pipes
+- AWS Step Functions
+- AWS Elemental MediaConvert
+- Amazon CloudWatch
+- AWS Identity and Access Management (IAM)
 
-![complete](/images/5-Workshop/5.2-Prerequisite/complete.png)
+Nhằm thuận tiện cho việc quản lý tài nguyên và theo dõi chi phí, nên sử dụng một tài khoản AWS riêng dành cho quá trình học tập hoặc nghiên cứu thay vì tài khoản đang phục vụ các hệ thống khác.
 
-+ 2 VPCs đã được tạo
+---
 
-![vpcs](/images/5-Workshop/5.2-Prerequisite/vpcs.png)
+## Quyền truy cập
 
-+ 3 EC2s đã được tạo
+Người triển khai cần sử dụng IAM User hoặc IAM Role có đầy đủ quyền tạo và cấu hình các dịch vụ AWS.
 
-![EC2](/images/5-Workshop/5.2-Prerequisite/ec2.png)
+Các quyền tối thiểu bao gồm:
+
+- Amazon S3 Full Access
+- Amazon DynamoDB Full Access
+- AWS Lambda Full Access
+- Amazon API Gateway Administrator
+- AWS Step Functions Full Access
+- Amazon EventBridge Full Access
+- Amazon SQS Full Access
+- AWS Elemental MediaConvert Full Access
+- Amazon CloudWatch Full Access
+- IAM Full Access
+
+Nếu thiếu một trong các quyền trên, quá trình triển khai có thể gặp lỗi khi tạo tài nguyên hoặc kết nối giữa các dịch vụ.
+
+---
+
+## Môi trường phát triển
+
+Workshop được thực hiện chủ yếu thông qua AWS Management Console. Ngoài ra, cần chuẩn bị một số phần mềm để chỉnh sửa mã nguồn và triển khai giao diện web.
+
+| Phần mềm | Mục đích |
+|----------|----------|
+| Google Chrome | Truy cập AWS Management Console |
+| Visual Studio Code | Chỉnh sửa mã nguồn |
+| Node.js LTS | Chạy và build ứng dụng web |
+| Git | Quản lý mã nguồn |
+| AWS CLI (Tùy chọn) | Quản lý AWS bằng dòng lệnh |
+
+Mặc dù AWS CLI không bắt buộc, việc cài đặt công cụ này sẽ thuận tiện hơn trong quá trình kiểm tra và quản lý tài nguyên.
+
+---
+
+## Kết nối mạng
+
+Do toàn bộ hệ thống được triển khai trên nền tảng đám mây, máy tính sử dụng cần có kết nối Internet ổn định trong suốt quá trình thực hiện Workshop.
+
+Ngoài ra, cần đảm bảo rằng trình duyệt hoặc tường lửa không chặn việc truy cập vào các dịch vụ của AWS. Trong môi trường doanh nghiệp, có thể cần cấu hình cho phép kết nối HTTPS đến các miền dịch vụ của Amazon Web Services.
+
+---
+
+## Thời gian triển khai dự kiến
+
+Tổng thời gian triển khai toàn bộ hệ thống phụ thuộc vào tốc độ mạng và mức độ quen thuộc với AWS. Trong điều kiện bình thường, Workshop có thể hoàn thành trong khoảng hai đến ba giờ.
+
+Thời gian tham khảo cho từng phần như sau:
+
+| Nội dung | Thời gian |
+|----------|-----------:|
+| Xây dựng Backend | 45–60 phút |
+| Xây dựng Video Processing Pipeline | 45–60 phút |
+| Kiểm thử hệ thống | 20–30 phút |
+| Triển khai Web Application | 20–30 phút |
+
+---
+
+## Khu vực triển khai AWS
+
+Trong quá trình triển khai, tất cả các tài nguyên nên được tạo trong cùng một **AWS Region** để đảm bảo khả năng tương thích giữa các dịch vụ và giảm độ trễ trong quá trình trao đổi dữ liệu.
+
+Đối với đồ án này, toàn bộ tài nguyên được triển khai trong cùng một Region nhằm đảm bảo Amazon S3, AWS Lambda, Amazon DynamoDB, Amazon EventBridge, Amazon SQS, AWS Step Functions và AWS Elemental MediaConvert có thể kết nối và hoạt động ổn định với nhau.
+
+Trước khi tạo bất kỳ tài nguyên nào, người thực hiện nên kiểm tra Region đang được chọn trên AWS Management Console. Việc thay đổi Region sau khi đã triển khai hệ thống sẽ yêu cầu tạo lại nhiều tài nguyên và cấu hình liên quan.
+
+---
+
+## Quy ước đặt tên tài nguyên
+
+Để thuận tiện cho việc quản lý và bảo trì hệ thống, các tài nguyên AWS được đặt tên theo quy ước thống nhất trong suốt quá trình triển khai.
+
+Một số tài nguyên chính bao gồm:
+
+| Tài nguyên | Tên sử dụng |
+|------------|-------------|
+| DynamoDB Table | Videos |
+| S3 Bucket chứa video gốc | Raw Upload Bucket |
+| S3 Bucket chứa video sau xử lý | Processed Media Bucket |
+| Lambda Function | Upload Lambda |
+| REST API | Video API |
+| Step Functions | Video Processing Workflow |
+
+Việc sử dụng tên tài nguyên rõ ràng giúp quá trình theo dõi log, cấu hình IAM và kiểm tra hệ thống trở nên dễ dàng hơn.
+
+---
+
+## Chi phí triển khai
+
+Hệ thống được xây dựng dưới dạng nguyên mẫu (Prototype) nên chi phí triển khai tương đối thấp. Phần lớn các dịch vụ AWS được sử dụng đều áp dụng mô hình **Pay-as-you-go**, tức là người dùng chỉ thanh toán theo mức tài nguyên thực tế đã sử dụng.
+
+Các dịch vụ có thể phát sinh chi phí bao gồm:
+
+- Amazon S3 lưu trữ dữ liệu.
+- AWS Elemental MediaConvert xử lý video.
+- Amazon CloudFront phân phối nội dung.
+- AWS Lambda thực thi hàm.
+- Amazon API Gateway xử lý yêu cầu từ người dùng.
+
+Trong quá trình thử nghiệm, số lượng video tải lên không nhiều nên tổng chi phí vận hành ở mức thấp. Tuy nhiên, người triển khai vẫn nên thường xuyên theo dõi mục **Billing & Cost Management** trên AWS để kiểm soát chi phí và xóa các tài nguyên không còn sử dụng sau khi hoàn thành Workshop.
+
+---
+
+## Chuẩn bị mã nguồn
+
+Trước khi bắt đầu cấu hình các dịch vụ AWS, toàn bộ mã nguồn của dự án cần được chuẩn bị trên máy tính.
+
+Dự án bao gồm hai thành phần chính:
+
+- Backend được triển khai bằng các hàm AWS Lambda.
+- Frontend là ứng dụng web phục vụ việc đăng nhập, tải video lên hệ thống và phát video sau khi xử lý.
+
+Mã nguồn Backend chịu trách nhiệm tạo Presigned URL, quản lý metadata video và xử lý các nghiệp vụ của hệ thống. Trong khi đó, Frontend cung cấp giao diện giúp người dùng tương tác với nền tảng Video-on-Demand thông qua trình duyệt web.
+
+Việc chuẩn bị đầy đủ mã nguồn trước khi triển khai sẽ giúp quá trình cấu hình và kiểm thử diễn ra thuận lợi hơn.
+
+---
+
+## Danh sách kiểm tra trước khi triển khai
+
+Trước khi chuyển sang bước xây dựng Backend, cần xác nhận rằng toàn bộ điều kiện tiên quyết đã được chuẩn bị đầy đủ.
+
+Danh sách kiểm tra bao gồm:
+
+- Đã có tài khoản AWS đang hoạt động.
+- IAM User hoặc IAM Role có đầy đủ quyền truy cập.
+- Đã lựa chọn đúng AWS Region.
+- Đã cài đặt các phần mềm cần thiết.
+- Máy tính có kết nối Internet ổn định.
+- Mã nguồn dự án đã được chuẩn bị.
+- Có thể đăng nhập và truy cập AWS Management Console.
+
+Việc hoàn thành đầy đủ các bước trên sẽ giúp giảm thiểu lỗi phát sinh trong quá trình cấu hình các dịch vụ AWS ở các phần tiếp theo.
+
+---
+
+## Tổng kết
+
+Trong phần này, các điều kiện cần thiết trước khi triển khai hệ thống **Serverless Video-on-Demand Platform on AWS** đã được giới thiệu. Các nội dung bao gồm tài khoản AWS, quyền truy cập, môi trường phát triển, lựa chọn Region, quy ước đặt tên tài nguyên, chi phí triển khai và các yêu cầu về mã nguồn.
+
+Sau khi hoàn thành các bước chuẩn bị, hệ thống đã sẵn sàng để triển khai hạ tầng Backend. Phần tiếp theo của Workshop sẽ hướng dẫn chi tiết cách tạo Amazon S3 Bucket, cấu hình Amazon DynamoDB, triển khai AWS Lambda và tích hợp Amazon API Gateway để xây dựng nền tảng backend cho hệ thống.

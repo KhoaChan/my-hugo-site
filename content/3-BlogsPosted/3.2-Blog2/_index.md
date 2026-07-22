@@ -192,5 +192,10 @@ A good Cloud system is not only a system that works. It must also be repeatable,
 
 ![alt text](/my-hugo-site/images/3-Blogpost/khoa.png)
 
+
+## Practice Evidence
+
+![alt text](/my-hugo-site/images/3-Blogpost/image.png)
+
 Reference link:  
-https://aws.amazon.com/.../replicate-amazon-s3-bucket.../...
+https://www.facebook.com/groups/660548818043427/my_pending_content
