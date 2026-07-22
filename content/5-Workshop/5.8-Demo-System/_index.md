@@ -7,8 +7,6 @@ pre: "<b>5.8. </b>"
 ---
 
 
-# System Demo
-
 ## Overview
 
 After completing the deployment and testing process, the **Serverless Video-on-Demand Platform on AWS** successfully met all the required functions of the MVP version. The video below demonstrates the complete system workflow, from the moment a user uploads a video, through processing on AWS, until the video is ready for playback on the website.

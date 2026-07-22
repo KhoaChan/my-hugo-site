@@ -6,7 +6,6 @@ chapter: false
 pre: "<b>5.8. </b>"
 ---
 
-# Demo hệ thống
 
 ## Tổng quan
 
