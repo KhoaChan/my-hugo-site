@@ -50,9 +50,7 @@ The proposed Serverless and Event-Driven Architecture enables the platform to co
 
 The proposed system architecture follows a layered cloud-native design in which each AWS service is responsible for a dedicated function. Communication between services is performed through REST APIs or event-driven messaging, allowing individual components to evolve independently while maintaining loose coupling across the entire platform.
 
-<img src="/images/2-Proposal/1.png"
-alt="Serverless Video-on-Demand Platform Architecture"
-style="max-width:100%; height:auto;" />
+![Screenshot](/my-hugo-site/images/2-Proposal/image.png)
 
 **Figure 2.1. Proposed architecture of the Serverless Video-on-Demand Platform on AWS.**
 
